@@ -16,3 +16,12 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+# My Public Second Brain.
+
+See on [suzzlo.github.io](https://suzzlo.github.io).
+
+This is a fork of the [Quartz](https://github.com/jackyzha0/quartz) repo. I added some additional features such as:
+
+- tagging with #publish will automatically copy the note from my private second brain in [Obsidian](https://obsidian.md/) to this public second brain. You find the python scrips in [utils](https://github.com/sspaeti/second-brain-public/blob/hugo/utils).
+- It also converts the first header (`# my title`) into the frontmatter (metadata of each note) and removes it so that Quartz needs it.
